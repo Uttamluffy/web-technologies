@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(21, 158, 114);
+}
+.parent{
+    width: 100%;
+}
+.son{
+    width: 50%;
+    float: left;
+}
+.daughter{
+    width: 50%;
+    float: right;
+}
+img{
+    width: 650px;
+    height: auto;
+}
+h1{
+    color: white;
+    font-size: xxx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: x-large;
+    line-height: 30px;
+}
