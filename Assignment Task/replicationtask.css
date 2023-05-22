@@ -1,0 +1,367 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&family=Unbounded:wght@200;400;700&display=swap");
+
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Unbounded', cursive;
+*/
+
+/* Set the box-sizing for all elements to border-box */
+body 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.content-wrapper {
+  width: 50%;
+  background-color: rgb(9, 22, 19);
+  padding: 5%;
+  color: #ffffff;
+}
+
+h1 {
+  font-size: 50px;
+  line-height: 1.1;
+  margin-bottom: 30px;
+  font-family: "Unbounded", cursive;
+}
+
+h2 {
+  margin-bottom: 100px;
+  font-weight: 200;
+}
+
+figure {
+  width: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+.button a {
+  display: inline-block;
+  padding: 10px 50px;
+  background: orange;
+  border-radius: 30px;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 800;
+  transition: all 0.5s ease;
+}
+
+.button a:hover {
+  background: black;
+  color: orange;
+}
+
+/*
+Responsive Web Design.
+-----------------------
+1024   - tablet
+768    - phone
+420    - phone portrait
+*/
+
+@media screen and (max-width: 1024px) {
+  .button a {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .content-wrapper {
+    padding-bottom: 50px;
+  }
+
+  .content-wrapper,
+  figure {
+    width: 100%;
+  }
+
+  figure {
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .button a {
+    text-align: center;
+  }
+}
+@media only screen and (max-width:768px) {
+    /* For screens with a width of 768 pixels or less: */
+    .first_main {
+      font-size: 12px;
+      flex-direction: row;
+    }
+    .second_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .Third_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .four_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .last_main {
+      width: 50%;
+      font-size: 20px;
+    }
+  }
+
+/** First box**/
+
+.first_main{
+    color: whitesmoke;
+    width: 100%;
+    height: 795px;
+    background-color: rgb(32, 63, 32);
+    display: flex;
+}
+
+
+
+h1{
+    margin-top: 80px;
+    font-size: 58px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#first_para{
+    padding: 10px 10px;
+    margin-top: 150px;
+    font-size: 28px;
+}
+#img0{
+    width: 800px;
+    height: 795px;
+    object-fit: cover;
+}
+
+input[type="button"]{
+    font-size: 28px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: orange;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 1s;
+   background-color: darkorange;
+}
+
+/* Second Sections*/
+
+.second_main{
+    height: 790px;
+    width: 100%;
+    background-color:rgb(87, 161, 87);
+}
+
+.heading2{
+    font-size: 48px;
+    color: whitesmoke;
+    width: 600px;
+    height: 300px;
+    padding: 10px 5px;
+}
+.contentss{
+    margin-bottom: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.para2{
+   margin-top: 76px;
+   font-size: 28px;
+    color: whitesmoke;
+    width: 500px;
+    height: 300px;
+    
+}
+
+#img1{
+    margin-left: 100px;
+    width: 1200px;
+    height: 330px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width:768px) {
+    /* For screens with a width of 768 pixels or less: */
+    .first_main {
+      font-size: 12px;
+      flex-direction: row;
+    }
+    .second_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .Third_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .four_main {
+      width: 50%;
+      font-size: 20px;
+    }
+    .last_main {
+      width: 50%;
+      font-size: 20px;
+    }
+  }
+  
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Third section*/  
+
+.Third_main{
+    padding-top: 10px;
+    height: 790px;
+    width: 100%;
+    background-color:aquamarine;
+    color: black;
+}
+
+#h11{
+    text-align: center;
+}
+.Card_box{
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+
+}
+.card:hover{
+    transform: scale(1.05);
+    transition-duration: .5s;
+}
+
+#card_img{
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.card_detail{
+    text-align: center;
+
+}
+#card_parag{
+    font-size: 22px;
+}
+/*Section four*/  
+
+*{
+    margin:0px;
+}
+body{
+    background-color: lightgreen;
+}
+.four_main{
+    width: 100%;
+}
+.son{
+    width: 50%;
+    float: left;
+}
+.daughter{
+    width: 50%;
+    float: right;
+}
+img{
+    width: 680px;
+    height: auto;
+}
+h1{
+    color: white;
+    font-size: xxx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-size: x-large;
+    line-height: 30px;
+}
+
+/*Section last*/ 
+.last_main{
+    color: whitesmoke;
+    width: 100%;
+    height: 795px;
+    background-color:gray;
+    display: flex;
+}
+
+.Container{
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 30px;
+    width: 55%;
+    height: 650px;
+    padding: 10px 10px;
+}
+
+h1{
+    margin-top: 80px;
+    font-size: 58px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+#first_para1{
+    padding: 10px 10px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+#img0{
+    width: 800px;
+    height: 795px;
+    object-fit: cover;
+}
+
+input[type="button"]{
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: orange;
+    color: #333;
+    font-weight: bolder;
+    text-align: center;
+}
+
+input[type="button"]:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition-duration: 1s;
+   background-color: darkorange;
+}

@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+h1{
+    text-align: center;
+    color:tan;
+    font-size: 60px;
+    font-family: 'Delicious Handrawn', cursive;
+}
+.parent{
+    width:100%;
+}
+.son{
+    width:50%;
+    float:left;
+}
+img{
+    width:500px;
+    height:auto;
+}
+.daughter{
+    width:50%;
+    float:right;
+}
+p{
+    font-size: 30px;
+    line-height: 50px;
+    font-family: 'Delicious Handrawn', cursive;
+    font-style: oblique;
+}
+
+/*moblies devices*/
+@media (min-width:320px) and (max-width:480px){
+   h1{
+    background-color: brown;
+    color: aqua;
+    width: 100%;
+    text-align: center;
+   }
+   .daughter{
+    width: 100%;
+   }
+   .son{
+    width: 100%;
+   }
+   .daughter img{
+    width: 100%;
+    height: auto;
+   }
+}
+/*tablet devices*/
+@media (min-width:481px) and (max-width:768px){
+    h1{
+        background-color: aliceblue;
+        color: blue;
+        width: 100%;
+        text-align: center;
+       }
+       .daughter{
+        width: 100%;
+       }
+       .son{
+        width: 100%;
+       }
+       .daughter img{
+        width: 100%;
+        height: auto;
+       }
+}
+/*laptop devices*/
+@media (min-width:769px) and (max-width:1024px){
+    h1{
+        background-color: rgb(245, 255, 240);
+        color: rgb(255, 0, 191);
+        width: 100%;
+        text-align: center;
+       }
+       .daughter{
+        width: 100%;
+       }
+       .son{
+        width: 100%;
+       }
+       .daughter img{
+        width: 100%;
+        height: auto;
+       }
+}

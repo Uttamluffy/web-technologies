@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid{
+    width: 100%;
+    border: 2px solid yellowgreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 250px 250px;
+    grid-row-gap:  10px;
+    grid-column-gap: 10px;
+}
+.box1{
+    background-color: green;
+}
+
+.box2{
+    background-color: orange;
+}
+
+.box3{
+    background-color: black;
+}
+
+.box4{
+    background-color: blue;
+}
+
+.box5{
+    background-color: blueviolet;
+}
+
+.box6{
+    background-color: brown;
+}

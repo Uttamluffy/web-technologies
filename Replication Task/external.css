@@ -3,9 +3,9 @@
     padding:0px;
 }
 body{
-    background-color: rgb(21, 158, 114);
+    background-color: lightgreen;
 }
-.parent{
+.four_main{
     width: 100%;
 }
 .son{
@@ -17,7 +17,7 @@ body{
     float: right;
 }
 img{
-    width: 650px;
+    width: 680px;
     height: auto;
 }
 h1{

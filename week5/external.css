@@ -1,0 +1,41 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    background-color: bisque;
+    font-size: 30px;
+    color: brown;
+}
+#p1{
+    font-family: 'Libre Baskerville', serif;
+    background-color: rgb(255, 196, 229);
+    font-size: 30px;
+    color: rgba(216, 197, 89, 0.578);
+    font-style: italic;
+}
+#p2{
+    background-color: rgb(255, 196, 229);
+    font-size: 30px;
+    color: rgba(67, 165, 42, 0.578);
+    font-style: italic;
+}
+#p3{
+    background-color: rgb(255, 196, 229);
+    font-size: 30px;
+    color: rgba(67, 165, 42, 0.578);
+    font-style: italic;
+}
+img{
+    width: 600px;
+    height: 500px;
+}
+
+img[alt]{
+    color: brown;
+}
+a[href]{
+    color: pink;
+}
+#p3:hover{
+    background-color: yellow;
+}
